@@ -21,7 +21,7 @@ const App = () => {
         <div>
             {response && (
                 <div>
-                    <h1>Previous State: {response.windowPrevState.join(', ')}</h1>
+                    
                     <h1>Current State: {response.windowCurrState.join(', ')}</h1>
                     <h1>Numbers: {response.numbers.join(', ')}</h1>
                     <h1>Average: {response.avg}</h1>
