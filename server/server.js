@@ -15,7 +15,7 @@ const fetchNumbers = async (accessToken) => {
                 Authorization: `Bearer ${accessToken}`
             }
         });
-        return response.data;
+        
     } catch (error) {
         console.error("Error fetching numbers:", error);
         return [];
